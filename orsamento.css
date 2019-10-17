@@ -1,0 +1,123 @@
+body{
+  border:  0 0 0 0;
+  margin: 0 0 0 0;
+  background-color:
+}
+
+.nav{
+  background-color: #1f7a1f;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+
+  }
+.nav ul li{
+   display: inline-block;
+   padding: 1%;
+ }
+ .nav ul li a{
+   text-decoration: nome;
+ }
+
+.topo{
+  font-family: 'Poiret One', cursive;
+  /*font-family: 'Josefin Slab', serif;*/
+  width: 100%;
+  height: 75px;
+  background-color: #f1f1f1;
+  background: #1f7a1f;
+  color: #d1d1e0;
+  text-align: center;
+  border-top: 5px;
+  margin: 0 0 0 0;
+
+}
+
+#saldoTotal{
+  font-family: 'Poiret One', cursive;
+  width: 100%;
+  height: 50px;
+  /*color: #d1d1e0;*/
+  text-align: center;
+  border: 0;
+  margin: 0;
+}
+
+.saldoBom{
+
+
+}
+
+.areaDeTrabalho{
+   margin-top: 10px;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+.araeaDespeza{
+  font-family: 'Poiret One', cursive;
+  display: inline-block;
+  position: relative;
+  height: 500px;
+  width: 500px;
+}
+.dispeza{
+  background-color:
+  display: inline-block;
+}
+
+.renda{
+font-family: 'Poiret One', cursive;
+  position: relative;
+  margin-left: 70px;
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+}
+
+#somadorDispeza{
+  display: flex;
+  width: auto;
+}
+
+#resltDespeza{
+  width: auto;
+  display: inline;
+}
+
+#resltDespeza table{
+  border-collapse:collapse;
+  background: white;
+}
+
+#resltDespeza tr{
+  border: 1px solid transparent;
+}
+
+#resltDespeza td{
+  border:none;
+  width:500px;
+  padding-top: 8px;
+	border-top:1px solid #CCC;
+}
+
+
+
+#resultRenda table{
+  border-collapse:collapse;
+  background: white;
+}
+
+#resultRenda tr{
+  border: 1px solid transparent;
+}
+
+#resultRenda td{
+  border:none;
+  width:500px;
+  padding-top: 8px;
+	border-top:1px solid #CCC;
+}
